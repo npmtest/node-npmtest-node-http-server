@@ -1,6 +1,6 @@
 # npmtest-node-http-server
 
-#### test coverage for  [node-http-server (v6.2.1)](https://github.com/RIAEvangelist/node-http-server)  [![npm package](https://img.shields.io/npm/v/npmtest-node-http-server.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-http-server) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-http-server.svg)](https://travis-ci.org/npmtest/node-npmtest-node-http-server)
+#### basic test coverage for  [node-http-server (v6.2.1)](https://github.com/RIAEvangelist/node-http-server)  [![npm package](https://img.shields.io/npm/v/npmtest-node-http-server.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-http-server) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-http-server.svg)](https://travis-ci.org/npmtest/node-npmtest-node-http-server)
 
 #### A very simple and fast http server for node, bash, and spawnable from C, Python etc. It is lightweight and great for embedded solutions as well as everyday development or public facing apps.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-http-server/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-http-server/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-http-server/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-http-server/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-http-server/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-http-server/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-http-server/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-http-server/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-http-server/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-http-server/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-http-server/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-http-server/build/coverage.html/index.html)
 
@@ -98,7 +98,8 @@
         "start": "node ./example/basic/basicApp.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "6.2.1"
+    "version": "6.2.1",
+    "bin": {}
 }
 ```
 
